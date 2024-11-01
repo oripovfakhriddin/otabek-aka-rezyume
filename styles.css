@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: url("C:/Users/o.ishanxodjaev/Downloads/резюме/моя3.jpg") no-repeat
+    center center fixed;
+  background-size: cover;
+  background-color: #f9f9f9;
+}
+h1 {
+  color: #000000;
+  background: #0552a0;
+  padding: 5px;
+}
+
+h2,
+h3 {
+  color: #0552a0;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+}
+
+section {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+#profile-photo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  p,
+  li {
+    font-size: 1em;
+  }
+}
